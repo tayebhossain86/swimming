@@ -1,0 +1,456 @@
+/*******global css part start*******/
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.global-btn{
+    padding: 10px 30px;
+    display: inline-block;
+    background: #e550ed;
+    margin: 20px 0px 55px;
+}
+.global-btn a{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 20px;
+}
+.global-heading{
+    margin: 50px 0px 65px;
+}
+.global-heading h2{
+    font-weight: 700;
+    font-size: 40px;
+    color: #fff;
+}
+.social-media-icon{
+    padding-top: 70px;
+    margin-left: 20%;;
+}
+.social-media-icon i{
+    margin-right: 20px;
+    font-size: 15px;
+    padding: 8px 10px;
+    background: #fff;
+    border-radius: 50%;
+    color: #432e8b;
+}
+i.fab.fa-facebook-f {
+    padding: 10px 14px !important;
+}
+/******** global css part end *******/
+/******** header css part start ******/
+
+header{
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    z-index: 99999;
+}
+header .navbar-nav{
+    margin-left: 50px;
+    padding-top: 20px;
+}
+header .navbar .fa-bars{
+    color: #fff;
+}
+.navbar-toggler:focus, .navbar-toggler:hover{
+    outline: none;
+}
+
+header .navbar-nav .nav-item .nav-link{
+    margin-left: 35px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+/******** header css part end ******/
+
+/******** banner css part start ******/
+
+#banner{
+    background: url(../img/banner.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+}
+#banner .banner-text{
+    color: #fff;
+    margin-top: 65%;
+}
+#banner .banner-text h1{
+    font-size: 58px;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding-right: 36%;
+}
+#banner .banner-text h6{
+    font-size: 30px;
+    font-weight: 500;
+    margin: 20px 0;
+}
+#banner .banner-right-text{
+    text-align: right;
+    margin-top: 153%;
+}
+#banner .banner-right-text p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    position: relative;
+    margin-right: 20px;
+}
+#banner .banner-right-text p span{
+    color: #00dde4;
+}
+#banner .banner-right-text p::before{
+    content: '';
+    position: absolute;
+    top: -12px;
+    right: 3px;
+    width: 30px;
+    height: 4px;
+    background: #fff;
+}
+/******** banner css part end ******/
+
+/******** course css part start ******/
+#course{
+    background: #432e8b;
+    width: 100%;
+    padding: 50px 0px;
+    position: relative;
+}
+#course .course-img img{
+    width: 80%;
+}
+#course .course-text{
+    padding-left: 20px;
+}
+#course .course-text h4{
+    color: #00dde4;
+    font-size: 35px;
+    font-weight: 600;
+    padding-right: 92px;
+    margin: 30px 0px;
+    text-transform: uppercase;
+}
+#course .course-text p{
+    color: #fff;
+    font-size: 23px;
+    padding-right: 101px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+#course .shape .shape-5{
+    position: absolute;
+    top: -50px;
+    left: 4%;
+}
+#course .shape .shape-6{
+    position: absolute;
+    bottom: -30px;
+    right: 5%;
+}
+/******** course css part end ******/
+
+/******** about css part start ******/
+
+#about{
+    width: 100%;
+    padding: 100px 0px;
+    position: relative;
+}
+#about::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #00dde4;
+    width:52.5%;
+    height: 45%;
+}
+#about .about-img img{
+    
+}
+#about .about-text h4{
+    font-size: 40px;
+    font-weight: 700;
+    color: #00dde4;
+    text-transform: uppercase;
+}
+#about .about-text h6{
+    color: #444;
+    font-size: 22px;
+    line-height: 35px;
+    font-weight: 600;
+    margin: 20px 0px;
+}
+#about .about-text p{
+    color: #444;
+    padding-right: 27%;
+    font-size: 19px;
+    line-height: 35px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+#about .shape .shape-7{
+    position: absolute;
+    left: 27%;
+    bottom: -9%;
+}
+/******** about css part end ******/
+/******** instructors css part start ******/
+
+#instructors{
+    background: #432e8b;
+    width: 100%;
+    padding: 50px 0px 80px;
+}
+/* #instructors .instructors-img{
+    position: relative;
+} */
+#instructors .instructors-img img{
+    position: relative;
+}
+#instructors .instructors-name{
+    color: #fff;
+    padding: 25px 50px;
+    background: #00dde4;
+    display: inline-block;
+    position: absolute;
+    bottom: 50px;
+    left: 90px;
+}
+#instructors .instructors-name h4{
+    font-size: 27px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/******** instructors css part end ******/
+/******** reviews css part start ******/
+
+#reviews{
+    background: url(../img/img-10.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 570px;
+}
+#reviews .review-heading{
+    margin: 110px 0px 45px;
+}
+#reviews .review-heading h2{
+    color: #00dde4;
+}
+.carousel-item{
+    padding: 70px 0px 120px;
+}
+.carousel-item .review-text p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: italic;
+    padding: 0px 120px;
+}
+/******** reviews css part end ******/
+/******** gallary css part start******/
+
+#gallery{
+    padding: 100px 0px 30px;
+}
+#gallery .gallery-heading h2{
+    color: #00dde4;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+#gallery .gallery-heading h6{
+    color: #444;
+    font-weight: 600;
+    font-size: 22px;
+    margin: 20px 0 40px;
+}
+#gallery .gallery-1{
+    margin-bottom: 15px;
+}
+#gallery .gallery-1 img{
+    margin-right: 5px;
+
+}
+#gallery .gallery-1 .g-img-1{
+    width: 260px;
+}
+#gallery .gallery-1 .g-img-2{
+    width: 447px
+}
+#gallery .gallery-1 .g-img-3{
+    height: 310px;
+}
+#gallery .gallery-1 .g-img-4{
+    height: 310px;
+}
+#gallery .gallery-2 img{
+    margin-right: 10px;
+}
+#gallery .gallery-2 .g-img-5{
+    width: 428px;
+}
+#gallery .gallery-2 .g-img-6{
+    width: 326px;
+}
+#gallery .gallery-2 .g-img-7{
+    width: 312px;
+}
+#gallery .advice h6{
+    color: #444;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 50px 0px 10px;
+}
+/******** gallary css part end ******/
+/********download css part start ******/
+
+#download{
+    background: url(../img/img-18.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    width: 100%;
+    /* height: 1000px; */
+}
+#download .download-text{
+    margin-top: 100px;
+    text-align: right;
+    margin-bottom: 60px;
+    padding-right: 16%;
+}
+#download .download-text h2{
+    font-size: 40px;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 45%;
+}
+
+#download .download-btn{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 10px 30px;
+    background: #00dde4;
+    border-radius: 5px;
+    margin-right: 20px;
+    font-size: 16px;
+}
+/********download css part end ******/
+/********register css part start ******/
+
+#register{
+    background: url(../img/img-19.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    width: 100%;
+    padding: 100px 0px 70px;
+}
+#register .inner-text{}
+#register .inner-text h2{
+    color: #00dde4;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+#register .inner-text p{
+    color: #fff;
+    font-size: 20px;
+    padding-right: 40%;
+    margin: 44px 0px;
+}
+#register .inner-text .register-btn{
+    padding: 10px 30px;
+    background: #00dde4;
+    display: inline-block;
+    border-radius: 5px;
+}
+#register .inner-text .register-btn a{
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/********register css part end ******/
+/********footer css part start ******/
+
+footer{
+    background: #432e8b;
+    padding: 50px 0px;
+}
+footer .part-1 img{
+    margin-left: 45px;
+}
+footer .part-1 h2{
+    color: #00dde4;
+    font-size: 40px;
+    padding: 20px 25px 20px 0px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+footer .part-1 p{
+    color: #fff;
+    font-size: 20px;
+}
+footer .part-2{
+    margin-top: 50px;
+}
+footer .part-2 h4{
+    color: #00dde4;
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+footer .part-2 ul{
+    padding-left: 0px;
+}
+footer .part-2 ul li{
+    list-style: none;
+    margin-top: 20px;
+}
+footer .part-2 ul li a{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+footer .part-3{
+    margin-top: 50px;
+}
+footer .part-3 h4{
+    color: #00dde4;
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+footer .part-3 p{
+    color: #fff;
+    font-size: 18px;
+    line-height: 40px;;
+}
+footer .part-3 .footer-icon{
+    padding-top: 30px;
+    margin-left: 0px;
+}
+/********footer css part end ******/

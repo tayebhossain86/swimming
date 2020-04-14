@@ -1,0 +1,763 @@
+
+/* 
+    ##Device = Desktops
+    ##Screen = 1281px to 1400px
+*/
+
+@media (min-width: 1301px) and (max-width: 1400px){
+
+    #download .download-btn {
+        padding: 8px 10px;
+        font-size: 12px;
+    }
+}
+
+/* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1201px) and (max-width: 1300px) {
+
+    #download .download-btn {
+        padding: 7px 9px;
+        font-size: 11px;
+    }
+}
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    header .navbar-nav {
+        margin-left: 20px;
+        padding-top: 20px;
+    }
+    #course .course-text h4 {
+        font-size: 25px;
+    }
+    #course .course-text p {
+        font-size: 20px;
+    }
+    #about .about-img img {
+        width: 470px;
+        height: 470px;
+        object-fit: cover;
+    }
+    #gallery .gallery-1 .g-img-1 {
+        width: 206px;
+    }
+    #gallery .gallery-1 .g-img-2 {
+        width: 364px;
+    }
+    #gallery .gallery-1 .g-img-3 {
+        height: 252px;
+    }
+    #gallery .gallery-1 .g-img-4 {
+        height: 256px;
+    }
+    #gallery .gallery-2 .g-img-5 {
+        width: 346px;
+    }
+    #gallery .gallery-2 .g-img-6 {
+        width: 268px;
+    }
+    #gallery .gallery-2 .g-img-7 {
+        width: 254px;
+    }
+    #download .download-text h2 {
+        font-size: 30px;
+    }
+    #download .download-btn {
+        padding: 8px 5px;
+        margin-right: 12px;
+        font-size: 10px;
+    }
+    #register .inner-text p {
+        padding-right: 35%;
+    }
+}
+
+/* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 992px) {
+    header .navbar-nav {
+        margin-left: 20px;
+        padding-top: 20px;
+    } 
+    ul.navbar-nav {
+        align-items: flex-end;
+        background: #0096a8db;
+        padding-right: 20px;
+    }   
+    #banner .banner-text h1 {
+        font-size: 40px;
+    }
+    #banner .banner-text h6 {
+        font-size: 27px;
+    }
+    #course .course-text h4 {
+        font-size: 20px;
+        padding-right: 50px;
+    }
+    #course .course-text p {
+        font-size: 15px;
+        padding-right: 10px;
+    }
+    .global-btn a {
+        font-size: 14px;
+    }
+    .global-btn {
+        padding: 5px 10px;
+    }
+    #about .about-img img {
+        width: 345px;
+        height: 330px;
+        object-fit: cover;
+    }
+    #about .about-text h4 {
+        font-size: 30px;
+    }
+    #about .about-text h6 {
+        color: #444;
+        font-size: 20px;
+        line-height: 29px;
+        font-weight: 600;
+        margin: 20px 0px;
+    }
+    #about .about-text p {
+        color: #444;
+        padding-right: 27%;
+        font-size: 13px;
+        line-height: 25px;
+        font-weight: 600;
+        margin-bottom: 21px;
+    }
+    #instructors .instructors-img img {
+        width: 330px;
+    }
+    #instructors .instructors-name {
+        color: #fff;
+        padding: 15px 30px;
+        background: #00dde4;
+        display: inline-block;
+        position: absolute;
+        bottom: 50px;
+        left: 80px;
+    }
+    #instructors .instructors-name h4 {
+        font-size: 22px;
+    }
+    .social-media-icon {
+        padding-top: 63px;
+        margin-left: 27%;
+    }
+    .social-media-icon i {
+        margin-right: 15px;
+        font-size: 10px;
+        padding: 6px 8px;
+        background: #fff;
+        border-radius: 50%;
+        color: #432e8b;
+    }
+    i.fab.fa-facebook-f {
+        padding: 7px 10px !important;
+    }
+    #gallery .gallery-1 .g-img-1 {
+        width: 155px;
+    }
+    #gallery .gallery-1 .g-img-2 {
+        width: 272px;
+    }
+    #gallery .gallery-1 .g-img-3 {
+        height: 189px;
+    }
+    #gallery .gallery-1 .g-img-4 {
+        height: 168px;
+    }
+    #gallery .gallery-2 .g-img-5 {
+        width: 261px;
+    }
+    #gallery .gallery-2 .g-img-6 {
+        width: 198px;
+    }
+    #gallery .gallery-2 .g-img-7 {
+        width: 190px;
+    }
+    #download .download-text {
+        padding-right: 13%;
+    }
+    #download .download-text h2 {
+        font-size: 25px;
+    }
+    #download .download-btn {
+        padding: 5px 5px;
+        margin-right: 3px;
+        font-size: 10px;
+    }
+    #register .inner-text h2 {
+        font-size: 35px;
+    }
+    #register .inner-text p {
+        font-size: 19px;
+        padding-right: 10%;
+    }
+    footer .part-1 img {
+        margin-left: 20px;
+        width: 100px;
+    }
+    footer .part-1 h2 {
+        font-size: 30px;
+    }
+    footer .part-2 h4 {
+        margin-bottom: 65px;
+    }
+    footer .part-3 h4 {
+        margin-bottom: 34px;
+    }
+}
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 577px) and (max-width: 767px) {
+    ul.navbar-nav {
+        align-items: flex-end;
+        background: #0096a8db;
+        padding-right: 20px;
+    }
+    #banner .banner-text {
+        margin-top: 135%;
+    }
+    #banner .banner-text h1 {
+        font-size: 35px;
+        padding-right: 0%;
+    }
+    #banner .banner-text h6 {
+        font-size: 18px;
+    }
+    .global-btn {
+        padding: 6px 15px;
+        margin: 20px 0px 55px;
+    }
+    .global-btn a {
+        font-size: 14px;
+    }
+    #banner .banner-right-text p {
+        font-size: 14px;
+    }
+    .course-img {
+        text-align: center;
+    }
+    #course .course-text {
+        padding-left: 0px;
+        text-align: center;
+    }
+    #course .course-text h4 {
+        color: #00dde4;
+        font-size: 35px;
+        font-weight: 600;
+        margin: 30px 0px;
+        text-transform: uppercase;
+        padding: 0px 100px;
+    }
+    #course .course-text p {
+        color: #fff;
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 30px;
+        padding: 0px 80px;
+    }
+    #about::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #00dde4;
+        width: 100%;
+        height: 35%;
+    }
+    #about .about-img img {
+        width: 500px;
+    }
+    .about-text {
+        text-align: center;
+    }
+    #about .about-text h4 {
+        font-size: 40px;
+        margin-top: 50px;
+    }
+    #about .about-text h6 {
+        font-size: 22px;
+        line-height: 35px;
+        margin: 20px 0px;
+    }
+    #about .about-text p {
+        font-size: 18px;
+        margin-bottom: 30px;
+        padding: 0px 55px;
+    }
+    .instructors-img {
+        text-align: center;
+    }
+    #instructors .instructors-name {
+        bottom: 85px;
+        left: 130px;
+    }
+    .social-media-icon {
+        padding-top: 70px;
+        margin-left: 29%;
+        margin-bottom: 30px;
+    }
+    .carousel-indicators {
+        margin-bottom: 45px;
+    }
+    #gallery .gallery-1 .g-img-1 {
+        width: 174px;
+        margin-bottom: 10px;
+    }
+    #gallery .gallery-1 .g-img-2 {
+        width: 306px;
+        margin-bottom: 10px;
+    }
+    #gallery .gallery-1 .g-img-3 {
+        height: 376px;
+    }
+    #gallery .gallery-1 .g-img-4 {
+        height: 380px;
+    }
+    #gallery .gallery-2 .g-img-5 {
+        width: 446px;
+        margin-bottom: 10px;
+    }
+    #gallery .gallery-2 .g-img-6 {
+        width: 237px;
+    }
+    #gallery .gallery-2 .g-img-7 {
+        width: 226px;
+    }
+    #download .download-text {
+        margin-top: 100px;
+        margin-bottom: 60px;
+        padding-right: 2%;
+    }
+    #download .download-text h2 {
+        font-size: 23px;
+        margin-bottom: 50%;
+    }
+    #download .download-btn {
+        padding: 5px 5px;;
+        margin-right: 3px;
+        font-size: 10px;
+    }
+    .part-1 {
+        text-align: center;
+    }
+    footer .part-1 img {
+        margin-left: 0px;
+    }
+    footer .part-1 h2 {
+        padding: 30px 5px;
+    }
+    footer .part-1 p {
+        font-size: 18px;
+    }
+    footer .part-3 h4 {
+        font-size: 28px;
+        margin-bottom: 38px;
+    }
+    footer .part-3 p {
+        font-size: 18px;
+        line-height: 36px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 576px) {
+    header .logo{
+        width: 90px;
+    }
+    ul.navbar-nav {
+        align-items: flex-end;
+        background: #0096a8db;
+        padding-right: 20px;
+    }
+    #banner .banner-text h1 {
+        font-size: 30px;
+        padding-right: 5%;
+    }
+    #banner .banner-text h6 {
+        font-size: 20px;
+    }
+    .global-btn a {
+        font-size: 16px;
+    }
+    #banner .banner-right-text {
+        margin-top: -2%;
+    }
+    .course-img {
+        text-align: center;
+    }
+    #course .course-text {
+        padding-left: 0px;
+        text-align: center;
+    }
+    #course .course-text h4 {
+        color: #00dde4;
+        font-size: 35px;
+        font-weight: 600;
+        margin: 30px 0px;
+        text-transform: uppercase;
+        padding: 0px 100px;
+    }
+    #course .course-text p {
+        color: #fff;
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 30px;
+        padding: 0px 80px;
+    }
+    #about::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #00dde4;
+        width: 100%;
+        height: 35%;
+    }
+    #about .about-img img {
+        width: 460px;
+    }
+    .about-text {
+        text-align: center;
+    }
+    #about .about-text h4 {
+        font-size: 40px;
+        margin-top: 50px;
+    }
+    #about .about-text h6 {
+        font-size: 22px;
+        line-height: 35px;
+        margin: 20px 0px;
+    }
+    #about .about-text p {
+        font-size: 18px;
+        margin-bottom: 30px;
+        padding: 0px 55px;
+    }
+    .instructors-img {
+        text-align: center;
+    }
+    #instructors .instructors-img img {
+        margin-top: 30px;
+    }
+    #instructors .instructors-name {
+        bottom: 60px;
+        left: 102px;
+    }
+    .social-media-icon {
+        padding-top: 70px;
+        margin-left: 27%;
+    }
+    .carousel-indicators {
+        margin-bottom: 45px;
+    }
+    .carousel-item .review-text p {
+        color: #fff;
+        font-size: 20px;
+        font-weight: 300;
+        font-style: italic;
+        padding: 0px 0px;
+    }
+    .carousel-item {
+        padding: 55px 0px 145px;;
+    }
+    #gallery .gallery-1 .g-img-1 {
+        width: 160px;
+        margin-bottom: 10px;
+    }
+    #gallery .gallery-1 .g-img-2 {
+        width: 277px;
+        margin-bottom: 10px;
+    }
+    #gallery .gallery-1 .g-img-3 {
+        height: 360px;
+    }
+    #gallery .gallery-1 .g-img-4 {
+        height: 362px;
+    }
+    #gallery .gallery-2 .g-img-5 {
+        width: 428px;
+        margin-bottom: 10px;
+    }
+    #gallery .gallery-2 .g-img-6 {
+        width: 218px;
+    }
+    #gallery .gallery-2 .g-img-7 {
+        width: 212px;
+    }
+    #download {
+        background-position-x: -270px;
+    }
+    #download .download-text {
+        margin-top: 100px;
+        margin-bottom: 60px;
+        padding-right: 2%;
+    }
+    #download .download-text h2 {
+        font-size: 20px;
+        margin-bottom: 68%;
+        padding-right: 40px;
+    }
+    #download .download-btn {
+        padding: 5px 5px;
+        border-radius: 5px;
+        margin-right: 45px;
+        font-size: 9px;
+    }
+    .part-1 {
+        text-align: center;
+    }
+    footer .part-1 img {
+        margin-left: 0px;
+    }
+    footer .part-1 h2 {
+        padding: 30px 5px;
+    }
+    footer .part-1 p {
+        font-size: 18px;
+    }
+    footer .part-3 h4 {
+        font-size: 28px;
+        margin-bottom: 38px;
+    }
+    footer .part-3 p {
+        font-size: 18px;
+        line-height: 36px;
+    }
+    footer .part-3 {
+        text-align: center;
+    }
+}
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    header .logo{
+        width: 70px;
+    }
+    ul.navbar-nav {
+        align-items: flex-end;
+        background: #0096a8db;
+        padding-right: 20px;
+    }
+    #banner .banner-text h1 {
+        font-size: 23px;
+        padding-right: 5%;
+    }
+    #banner .banner-text h6 {
+        font-size: 15px;
+    }
+    .global-btn {
+        padding: 7px 15px;
+    }
+    .global-btn a {
+        font-size: 12px;
+    }
+    #banner .banner-right-text {
+        margin-top: -2%;
+    }
+    #banner .banner-right-text p {
+        font-size: 16px;
+    }
+    .global-heading h2 {
+        font-size: 30px;
+    }
+    .course-img {
+        text-align: center;
+    }
+    #course .course-text {
+        padding-left: 0px;
+        text-align: center;
+    }
+    #course .course-text h4 {
+        font-size: 25px;
+        margin: 30px 0px;
+        padding: 0px 0px;
+    }
+    #course .course-text p {
+        font-size: 16px;
+        margin-bottom: 30px;
+        padding: 0px 18px;
+    }
+    #about::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #00dde4;
+        width: 100%;
+        height: 24%;
+    }
+    #about .about-img img {
+        width: 295px;
+    }
+    .about-text {
+        text-align: center;
+    }
+    #about .about-text h4 {
+        font-size: 30px;
+        margin-top: 50px;
+    }
+    #about .about-text h6 {
+        font-size: 20px;
+        line-height: 35px;
+        margin: 20px 0px;
+    }
+    #about .about-text p {
+        font-size: 16px;
+        margin-bottom: 30px;
+        padding: 0px 20px;
+    }
+    .instructors-img {
+        text-align: center;
+    }
+    #instructors .instructors-img img {
+        margin-top: 30px;
+        width: 290px;
+    }
+    #instructors .instructors-name {
+        bottom: 60px;
+        left: 75px;
+        padding: 18px 20px;
+    }
+    #instructors .instructors-name h4 {
+        font-size: 20px;
+    }
+    .social-media-icon {
+        padding-top: 70px;
+        margin-left: 27%;
+    }
+    .social-media-icon i {
+        margin-right: 5px;
+        font-size: 10px;
+        padding: 7px 8px;
+    }
+    i.fab.fa-facebook-f {
+        padding: 7px 9px !important;
+    }
+    .carousel-indicators {
+        margin-bottom: 45px;
+    }
+    .review-heading h2{
+        font-size: 25px;
+    }
+    .carousel-item .review-text p {
+        color: #fff;
+        font-size: 16px;
+        font-weight: 300;
+        font-style: italic;
+        padding: 0px 0px;
+    }
+    .carousel-item {
+        padding: 55px 0px 145px;;
+    }
+    #gallery .gallery-1 .g-img-1 {
+        width: 310px;
+        margin-bottom: 10px;
+    }
+    #gallery .gallery-1 .g-img-2 {
+        width: 311px;
+        margin-bottom: 10px;
+    }
+    #gallery .gallery-1 .g-img-3 {
+        height: 350px;
+        width: 310px;
+        object-fit: cover;
+        margin-bottom: 10px;
+    }
+    #gallery .gallery-1 .g-img-4 {
+        height: 360px;
+        width: 310px;
+        object-fit: cover;
+    }
+    #gallery .gallery-2 .g-img-5 {
+        width: 312px;
+        margin-bottom: 10px;
+    }
+    #gallery .gallery-2 .g-img-6 {
+        width: 312px;
+        margin-bottom: 10px;    
+    }
+    #gallery .gallery-2 .g-img-7 {
+        width: 310px;
+    }
+    #download {
+        background-position-x: -420px;
+    }
+    #download .download-text {
+        margin-top: 100px;
+        margin-bottom: 60px;
+        padding-right: 2%;
+    }
+    #download .download-text h2 {
+        font-size: 20px;
+        margin-bottom: 100%;
+        padding-right: 50px;
+    }
+    #download .download-btn {
+        padding: 5px 5px;
+        border-radius: 5px;
+        margin-right: 53px;
+        font-size: 9px;
+    }
+    #register .inner-text h2 {
+        font-size: 30px;
+    }
+    #register .inner-text p {
+        font-size: 19px;
+        padding-right: 0%;
+        margin: 44px 0px;
+    }
+    #register .inner-text .register-btn {
+        padding: 7px 15px;
+    }
+    #register .inner-text .register-btn a {
+        font-size: 14px;
+    }
+    .part-1 {
+        text-align: center;
+    }
+    footer .part-1 img {
+        margin-left: 0px;
+        width: 100px;
+    }
+    footer .part-1 h2 {
+        padding: 30px 5px;
+        font-size: 30px
+    }
+    footer .part-1 p {
+        font-size: 18px;
+    }
+    footer .part-3 h4 {
+        font-size: 28px;
+        margin-bottom: 38px;
+    }
+    footer .part-3 p {
+        font-size: 14px;
+        line-height: 36px;
+    }
+    footer .part-3 {
+        text-align: center;
+    }
+}
